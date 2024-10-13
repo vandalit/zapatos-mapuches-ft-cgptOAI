@@ -1,15 +1,6 @@
 <template>
   <div>
     <h1>Zapatos en Promoción</h1>
-    <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/Zapatos">Zapatos</RouterLink>
-        <RouterLink to="/Promocion">Promo</RouterLink>
-        <RouterLink to="/Checkout">Checkout</RouterLink>
-        <RouterLink to="/Confirmacion">Confirmacion</RouterLink>
-        <RouterLink to="/Accesorios">Accesorios</RouterLink>
-        <RouterLink to="/NotFoundView">404</RouterLink>
-      </nav>
     <div class="row">
       <div class="col-md-4" v-for="zapato in zapatosPromo" :key="zapato.id">
         <div class="card mb-4">

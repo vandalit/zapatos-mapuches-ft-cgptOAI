@@ -5,15 +5,6 @@
     <!-- <router-link to="/zapatos" class="btn btn-primary">Ver Zapatos</router-link>
     <router-link to="/promocion" class="btn btn-secondary">Zapatos en Promoción</router-link>
     <router-link to="/accesorios" class="btn btn-info">Ver Accesorios</router-link> -->
-    <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/Zapatos">Zapatos</RouterLink>
-        <RouterLink to="/Promocion">Promo</RouterLink>
-        <RouterLink to="/Checkout">Checkout</RouterLink>
-        <RouterLink to="/Confirmacion">Confirmacion</RouterLink>
-        <RouterLink to="/Accesorios">Accesorios</RouterLink>
-
-      </nav>
   </div>
 </template>
 

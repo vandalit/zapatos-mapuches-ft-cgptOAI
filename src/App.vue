@@ -33,9 +33,12 @@
       </div>
     </nav>
 
-    <Cart /> <!-- Componente del carrito visible en todas las páginas -->
-
-    <router-view /> <!-- Área donde se renderizarán las vistas -->
+    <div class="main-container">
+      <Cart /> <!-- Componente del carrito visible en todas las páginas -->
+      <div class="main-content">
+        <router-view /> <!-- Área donde se renderizarán las vistas -->
+      </div>
+    </div>
   </div>
 </template>
 
@@ -57,10 +60,23 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 0; /* Eliminar el margen para evitar desplazamientos */
+  padding: 0; /* Eliminar el padding */
+}
+
+.main-container {
+  display: flex; /* Usar flex para organizar el contenido */
+  flex-direction: row; /* Colocar el carrito y el contenido principal en una fila */
 }
 
 .navbar {
   margin-bottom: 20px;
+  z-index: 10; /* Asegurar que el navbar esté sobre otros elementos */
+}
+
+.main-content {
+  margin-left: 20%; /* Dejar espacio para el carrito */
+  padding: 20px;
+  flex-grow: 1; /* Tomar el resto del espacio */
 }
 </style>

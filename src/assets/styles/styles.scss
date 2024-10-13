@@ -1,0 +1,49 @@
+// src/assets/styles/styles.scss
+
+// Importar Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Variables de colores
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+
+// Estilos globales
+body {
+  font-family: Arial, sans-serif;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+}
+
+// Estilo para el contenedor principal
+#app {
+  display: flex;
+  flex-direction: column; /* Asegúrate de que el contenedor principal sea vertical */
+  min-height: 100vh;
+}
+
+// Estilo para el contenedor del carrito
+.cart {
+  width: 20%; // 20% del ancho de la pantalla
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: fixed; // Fijo en el lado izquierdo
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto; // Scroll en caso de que el contenido sea mayor
+}
+
+// Media Queries para Responsividad
+@media (max-width: 768px) {
+  .cart {
+    width: 100%; // En pantallas pequeñas, el carrito ocupa el 100%
+    position: static; // No fijo, se posiciona con el flujo del documento
+  }
+
+  .main-content {
+    margin-left: 0; // Sin margen en pantallas pequeñas
+  }
+}

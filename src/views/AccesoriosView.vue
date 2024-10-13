@@ -1,11 +1,6 @@
 <template>
   <div>
     <h1>Accesorios Disponibles</h1>
-    <nav>
-        <RouterLink to="/Zapatos">Zapatos</RouterLink>
-        <RouterLink to="/Promocion">Promo</RouterLink>
-        <RouterLink to="/Accesorios">Accesorios</RouterLink>
-      </nav>
     <div class="row">
       <div class="col-md-4" v-for="accesorio in accesorios" :key="accesorio.id">
         <div class="card mb-4">
