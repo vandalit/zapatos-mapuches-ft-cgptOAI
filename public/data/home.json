@@ -1,0 +1,45 @@
+{
+  "mejoreszapatos": [
+    {
+      "titulo": "Botas Café Industrials Access",
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/276222-1200-auto?v=637484917737500000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "titulo": "Botas De Seguridad Industrials Action",
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/305494-1200-auto?v=637679193419870000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "titulo": "Zapatos Formales Negro Felixiano Moc ",
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/325187-1200-auto?v=637902273043930000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "titulo": "Mocasines Chocolate Gabino Cor",
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/327328-1200-auto?v=637958280186000000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "titulo": "Tenis Deportivos Gris Puma X-Ray 2 Square",
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/315289-1200-auto?v=637731881455500000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "titulo": "Tenis Deportivos Blanco Puma Future Rider Worldhood",
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/315314-1200-auto?v=637731904606830000&width=1200&height=auto&aspect=true"
+    }
+  ],
+  "tiposzapato": [
+    {
+      "nombre": "Botas",
+      "texto": "Una bota es un tipo de calzado que cubre el pie y parte del tobillo y que puede llegar hasta la rodilla o la ingle. En un principio fueron diseñadas como calzado de trabajo con la finalidad de mejorar la protección del pie y la articulación del tobillo. Existen infinidad de variedades según altura, color, material y estilo. La mayoría tiene un tacón, claramente diferenciado de la suela aunque estén ambos fabricados en el mismo material.",
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/327315-1200-auto?v=637958270697500000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "nombre": "Mocasin",
+      "texto": "El mocasín (del idioma powhatan, makasin, zapato) es un tipo de zapato masculino de cuero suave y suela dura. El término y diseño proviene del calzado que utilizaban los nativos norteamericanos, fabricado de piel sin curtir. Por su apariencia casual y deportiva los mocasines son zapatos aptos para llevar tanto en situaciones al aire libre como de vestir aunque no para ocasiones formales como fiestas de etiqueta en las que se exige esmoquin o frac. También se pueden llevar sin calcetines en los meses más calurosos. ",
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/325063-1200-auto?v=637898024514270000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "nombre": "Deportivo",
+      "texto": "Se llaman zapatillas deportivas (también llamadas deportivas) al tipo de calzado principalmente diseñado para practicar deporte u otras formas de ejercicio físico, pero que son ahora también ampliamente utilizadas para uso diario. El término generalmente describe un tipo de calzado con una suela flexible hecha de goma o material sintético y una parte superior fabricada en cuero, tela o sustitutivos sintéticos.",
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/329091-1200-auto?v=637993923653600000&width=1200&height=auto&aspect=true"
+    }
+  ]
+}

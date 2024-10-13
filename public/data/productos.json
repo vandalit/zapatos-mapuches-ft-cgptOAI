@@ -1,0 +1,126 @@
+{
+  "productos": [
+    {
+      "id": "1234",
+      "nombre": "Botas Café Industrials Access",
+      "descripcion": "Color: Café Capellada: Cuero Suela: Sintético Forro:",
+      "caracteristicas": [
+        "Material externo: Cuero",
+        "Material interno: Cuero",
+        "Material Suela: Sintético "
+      ],
+      "precio_normal": 199000,
+      "precio_promo": 99000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/276222-1200-auto?v=637484917737500000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "5678",
+      "nombre": "Botas Negro Felix Boot",
+      "descripcion": "Color: Negro Capellada: Cuero Suela: Eva Forro: Textil",
+      "caracteristicas": [
+        "Material externo: Cuero",
+        "Material interno: Textil",
+        "Material Suela: Eva "
+      ],
+      "precio_normal": 179000,
+      "precio_promo": 80000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/325166-1200-auto?v=637902066460500000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "9012",
+      "nombre": "Botas casuales Café rederick Boot ",
+      "descripcion": "Botas Casuales 100% Cuero de excelente calidad, contraste de materiales y de colores en la capellada, cordones encerados rendondos de buien calibre, suela en TR bicolor de muy buena calidad y abrasion al contacto con el suelo, super comodos en su plantilla interior y forros.",
+      "caracteristicas": [
+        "Material externo: Cuero",
+        "Material interno: Textil",
+        "Material Suela: Tr "
+      ],
+      "precio_normal": 70000,
+      "precio_promo": 35000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/320402-1200-auto?v=637849588932330000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "3456",
+      "nombre": "Zapatos Formales Negro Felixiano Moc",
+      "descripcion": "Color: Negro Capellada: Cuero Suela: Eva Forro: Textil",
+      "caracteristicas": [
+        "Material externo: Cuero",
+        "Material interno: Textil",
+        "Material Suela: Eva "
+      ],
+      "precio_normal": 71000,
+      "precio_promo": 43000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/325187-1200-auto?v=637902273043930000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "7890",
+      "nombre": "Mocasines Miel-Verde Gabriel Moc",
+      "descripcion": "Color: Miel-Verde Capellada: Sintético Suela: Sintético Forro: Textil",
+      "caracteristicas": [
+        "Material externo: Sintético",
+        "Material interno: Textil",
+        "Material Suela: Sintético "
+      ],
+      "precio_normal": 72000,
+      "precio_promo": 43000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/327415-1200-auto?v=637958515560730000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "9876",
+      "nombre": "Mocasines Café Fredrik Moc",
+      "descripcion": "Tecnologia Bata Gel Que Consta De Una Pieza Incrustrada En La Plantilla A La Altura Del Talón , Rellena De Un Gel Especial Que Permite Una Comodidad Localizada En Esta Parte Del Pie Brindando Un Confort Adicional En Cada Paso Dado Por El Cliente.",
+      "caracteristicas": [
+        "Material externo: Sintético",
+        "Material interno: Textil",
+        "Material Suela: Pvc "
+      ],
+      "precio_normal": 95000,
+      "precio_promo": 57000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/325067-1200-auto?v=637898027250970000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "5432",
+      "nombre": "Tenis Deportivos Blanco Puma Future Rider Worldhood",
+      "descripcion": "Sandalias en cuero 100% con talonera, para mayor comodidad con plantilla en textil acolchada para brindar mayor confort",
+      "caracteristicas": [
+        "Material externo: Cuero/Textil/Sintético",
+        "Material interno: Textil",
+        "Material Suela: Caucho "
+      ],
+      "precio_normal": 227000,
+      "precio_promo": 159000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/315314-1200-auto?v=637731904606830000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "1098",
+      "nombre": "Tenis Deportivos Negro Puma St Runner V3 L",
+      "descripcion": "Color: Negro Capellada: Cuero/Sintético Suela: Caucho Forro: Textil",
+      "caracteristicas": [
+        "Material externo: Cuero/Sintético",
+        "Material interno: Textil",
+        "Material Suela: Caucho "
+      ],
+      "precio_normal": 94000,
+      "precio_promo": 47000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/326013-1200-auto?v=637922011828270000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "7654",
+      "nombre": "Tenis Deportivos Azul Adidas Runfalcon 2.0",
+      "descripcion": "Color: Azul Capellada: Textil/Sintético Suela: Sintético Forro: Textil",
+      "caracteristicas": [
+        "Material externo: Textil/Sintético",
+        "Material interno: Textil",
+        "Material Suela: Sintético "
+      ],
+      "precio_normal": 94000,
+      "precio_promo": 47000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/329095-1200-auto?v=637993927903000000&width=1200&height=auto&aspect=true"
+    }
+  ],
+  "pagedResult": {
+    "page": 1,
+    "size": 10,
+    "total": 12
+  }
+}

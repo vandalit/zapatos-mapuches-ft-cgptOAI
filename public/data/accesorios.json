@@ -1,0 +1,57 @@
+{
+  "productos": [
+    {
+      "id": "1212",
+      "nombre": "Billetera Café Famke",
+      "descripcion": "Color: Café Capellada: Cuero Forro: Textil",
+      "precio_normal": 65000,
+      "precio_promo": 58000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/328700-1200-auto?v=637980090795070000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "3434",
+      "nombre": "Billetera Café Ever",
+      "descripcion": "Billetera De Cuero, Cuenta Con 8 Ranuras Para Tarjetas, Compartimento Para Billetes. Esta Billetera De Apariencia Diferente Y Sutil Te Permitirá Llevar Con Seguridad Tu Dinero Y Documentos Importantes.",
+      "precio_normal": 64000,
+      "precio_promo": 58000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/322369-1200-auto?v=637852936531830000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "5656",
+      "nombre": "Manos Libres Camel Fidel",
+      "descripcion": "Color: Camel Material: Cuero Forro: Textil",
+      "precio_normal": 64000,
+      "precio_promo": 58000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/326276-1200-auto?v=637928086713330000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "7878",
+      "nombre": "Manos Libres Negro Falk",
+      "descripcion": "Color: Negro Material: Cuero Forro: Sintético",
+      "precio_normal": 10000,
+      "precio_promo": 7000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/326760-1200-auto?v=637940066583930000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "9090",
+      "nombre": "Cinturón Camel Ferdinand",
+      "descripcion": "Color: Camel Material: Cuero Forro: Cuero",
+      "precio_normal": 20000,
+      "precio_promo": 15000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/327172-1200-auto?v=637956594296200000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "6969",
+      "nombre": "Cinturón Negro Fico",
+      "descripcion": "Color: Negro Material: Cuero Forro: Cuero",
+      "precio_normal": 35000,
+      "precio_promo": 20000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/326462-1200-auto?v=637934280153400000&width=1200&height=auto&aspect=true"
+    }
+  ],
+  "pagedResult": {
+    "page": 1,
+    "size": 10,
+    "total": 12
+  }
+}

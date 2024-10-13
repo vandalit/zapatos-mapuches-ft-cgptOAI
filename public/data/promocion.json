@@ -1,0 +1,113 @@
+{
+  "productos": [
+    {
+      "id": "1111",
+      "nombre": "Mocasines Camel Fugy Moc -PROMOCION-",
+      "descripcion": "Mocasines 100% Cuero Nobuck de excelente calidad y look, propuesta de diseño con vena en 45° en relieve, doble funcion ya que se puede transforar en un sueco o MULE, silueta tubular que facilita el confort y la máxima flexión del calzado al caminar, suela en caucho para mayor resistencia a la abrasión.",
+      "caracteristicas": [
+        "Material externo: Cuero",
+        "Material interno: Sintético",
+        "Material Suela: Caucho"
+      ],
+      "precio_normal": 71000,
+      "precio_promo": 43000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/320414-1200-auto?v=637849588990670000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "2222",
+      "nombre": "Mocasines Camel Femku Moc -PROMOCION-",
+      "descripcion": "TOP SIDER O SPERRY, 100% CUERO Nobuck de excelente calidad y look , propuesta de diseño con vena en 45° en relieve y falso cordón en cuero , silueta tubular que facilita el confort y la máxima flexión del calzado al caminar, suela en Caucho para mayor resistencia a la abrasión.",
+      "caracteristicas": [
+        "Material externo: Cuero",
+        "Material interno: Sintético",
+        "Material Suela: Caucho"
+      ],
+      "precio_normal": 72000,
+      "precio_promo": 42000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/319771-1200-auto?v=637847730799500000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "3333",
+      "nombre": "Botas Café Felixiano Boot -PROMOCION-",
+      "descripcion": "Color: Café Capellada: Cuero Suela: Eva Forro: Textil",
+      "caracteristicas": [
+        "Material externo: Cuero",
+        "Material interno: Textil",
+        "Material Suela: Eva"
+      ],
+      "precio_normal": 75000,
+      "precio_promo": 37000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/324969-1200-auto?v=637897849148500000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "4444",
+      "nombre": "Botas Azul Weinbrenner Fixter Boot -PROMOCION-",
+      "descripcion": "Color: Azul Capellada: Cuero Suela: Caucho Forro: Textil",
+      "caracteristicas": [
+        "Material externo: Cuero",
+        "Material interno: Textil",
+        "Material Suela: Caucho"
+      ],
+      "precio_normal": 79000,
+      "precio_promo": 38000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/325452-1200-auto?v=637903157376030000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "5555",
+      "nombre": "Tenis Casuales Blanco Adidas Advantage -PROMOCION-",
+      "descripcion": "Un estilo favorito de las canchas de tenis se toma las calles. Estos tenis presentan un exterior de cuero sintético. Combina una silueta de corte bajo y una suela de caucho tipo cupsole que realza este diseño elegante y discreto.",
+      "caracteristicas": [
+        "Material externo: Textil",
+        "Material interno: Sintético",
+        "Material Suela: Textil"
+      ],
+      "precio_normal": 155000,
+      "precio_promo": 62000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/323641-1200-auto?v=637872722705870000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "6666",
+      "nombre": "Tenis Deportivos Negro Power Ventus 300 V2 -PROMOCION-",
+      "descripcion": "Tenis deportivo especial para correr con entre suela en phylon y características especiales de estabilidad, amortiguación y flexibilidad. Con cámara de aire presurizado que hace las veces de un colchón para brindar mayor confort, Plantilla con la tecnología cushion.",
+      "caracteristicas": [
+        "Material externo: Textil/Sintético",
+        "Material interno: Sintético",
+        "Material Suela: Phylon/Tpr"
+      ],
+      "precio_normal": 35000,
+      "precio_promo": 25000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/325591-1200-auto?v=637903797534100000&width=1200&height=auto&aspect=true"
+    },
+    {
+      "id": "7777",
+      "nombre": "Zapatos Formales Negro New Corban Cor -PROMOCION-",
+      "descripcion": "Color: Negro Capellada: Sintético Suela: Sintético Forro: Textil",
+      "caracteristicas": [
+        "Material externo: Sintético",
+        "Material interno: Textil",
+        "Material Suela: Sintético"
+      ],
+      "precio_normal": 287000,
+      "precio_promo": 116000,
+      "imagen": "https://d1av3r99ggsbkh.cloudfront.net/3740-large_default/ensamblaje-blanco-premium-clos-de-lolol.jpg"
+    },
+    {
+      "id": "8888",
+      "nombre": "Zapatos Formales Negro Emmerson Cor -PROMOCION-",
+      "descripcion": "Color: Negro Capellada: Cuero Suela: Tr Forro: Textil",
+      "caracteristicas": [
+        "Material externo: Cuero",
+        "Material interno: Textil",
+        "Material Suela: Tr"
+      ],
+      "precio_normal": 263000,
+      "precio_promo": 158000,
+      "imagen": "https://bataco.vtexassets.com/arquivos/ids/316175-1200-auto?v=637740728930000000&width=1200&height=auto&aspect=true"
+    }
+  ],
+  "pagedResult": {
+    "page": 1,
+    "size": 10,
+    "total": 12
+  }
+}
