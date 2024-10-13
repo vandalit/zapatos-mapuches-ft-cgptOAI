@@ -1,17 +1,20 @@
 <template>
-    <div>
-      <h1>Página de 404</h1>
-      <p>Aquí verás una lista de zapatos disponibles.</p>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'NotFoundView',
-  };
-  </script>
-  
-  <style scoped>
-  /* Estilos para la página de zapatos */
-  </style>
-  
+  <div class="text-center">
+    <h1>404 - Página No Encontrada</h1>
+    <p>Lo sentimos, la página que estás buscando no existe.</p>
+    <router-link to="/" class="btn btn-primary">Volver al inicio</router-link>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'NotFoundView',
+};
+</script>
+
+<style scoped>
+.text-center {
+  text-align: center;
+  margin-top: 50px;
+}
+</style>

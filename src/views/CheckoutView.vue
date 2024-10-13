@@ -1,17 +1,69 @@
 <template>
-    <div>
-      <h1>Página de Checkout</h1>
-      <p>Aquí verás una lista de zapatos disponibles.</p>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'CheckoutView',
-  };
-  </script>
-  
-  <style scoped>
-  /* Estilos para la página de zapatos */
-  </style>
-  
+  <div>
+    <h1>Checkout</h1>
+    <nav>
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/Zapatos">Zapatos</RouterLink>
+        <RouterLink to="/Promocion">Promo</RouterLink>
+        <RouterLink to="/Checkout">Checkout</RouterLink>
+        <RouterLink to="/Confirmacion">Confirmacion</RouterLink>
+        <RouterLink to="/Accesorios">Accesorios</RouterLink>
+        <RouterLink to="/NotFoundView">404</RouterLink>
+      </nav>
+    <form @submit.prevent="procesarCheckout">
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre completo</label>
+        <input type="text" v-model="nombre" id="nombre" class="form-control" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" v-model="email" id="email" class="form-control" required />
+      </div>
+      <div class="mb-3">
+        <label for="telefono" class="form-label">Teléfono</label>
+        <input type="tel" v-model="telefono" id="telefono" class="form-control" required pattern="[0-9]{10}" />
+      </div>
+
+      <h3>Carrito de compras</h3>
+      <ul class="list-group mb-3">
+        <li class="list-group-item" v-for="(producto, index) in carrito" :key="index">
+          {{ producto.nombre }} - ${{ producto.precio }}
+          <button @click="eliminarDelCarrito(index)" class="btn btn-danger btn-sm float-end">Eliminar</button>
+        </li>
+      </ul>
+
+      <button type="submit" class="btn btn-primary">Confirmar Compra</button>
+    </form>
+  </div>
+</template>
+
+<script>
+import { mapState, mapMutations } from 'vuex';
+
+export default {
+  name: 'CheckoutView',
+  data() {
+    return {
+      nombre: '',
+      email: '',
+      telefono: '',
+    };
+  },
+  computed: {
+    ...mapState(['carrito']),
+  },
+  methods: {
+    ...mapMutations(['eliminarDelCarrito']),
+    procesarCheckout() {
+      alert(`Compra confirmada para ${this.nombre}`);
+      // Aquí podrías agregar lógica adicional como redirigir a la página de confirmación
+    },
+  },
+};
+</script>
+
+<style scoped>
+.mb-3 {
+  margin-bottom: 1rem;
+}
+</style>
