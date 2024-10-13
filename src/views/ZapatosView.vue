@@ -1,15 +1,6 @@
 <template>
   <div>
     <h1>Zapatos Disponibles</h1>
-    <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/Zapatos">Zapatos</RouterLink>
-        <RouterLink to="/Promocion">Promo</RouterLink>
-        <RouterLink to="/Checkout">Checkout</RouterLink>
-        <RouterLink to="/Confirmacion">Confirmacion</RouterLink>
-        <RouterLink to="/Accesorios">Accesorios</RouterLink>
-
-      </nav>
     <div class="row">
       <div class="col-md-4" v-for="zapato in zapatos" :key="zapato.id">
         <div class="card mb-4">
@@ -18,7 +9,7 @@
             <h5 class="card-title">{{ zapato.nombre }}</h5>
             <p class="card-text">{{ zapato.descripcion }}</p>
             <p><strong>Precio: ${{ zapato.precio_normal }}</strong></p>
-            <button class="btn btn-primary">Agregar al Carrito</button>
+            <button class="btn btn-primary" @click="agregarAlCarrito(zapato)">Agregar al Carrito</button>
           </div>
         </div>
       </div>
@@ -28,6 +19,7 @@
 
 <script>
 import axios from 'axios';
+import { mapMutations } from 'vuex'; // Asegúrate de importar esto correctamente
 
 export default {
   name: 'ZapatosView',
@@ -41,6 +33,13 @@ export default {
     axios.get('/data/productos.json').then((response) => {
       this.zapatos = response.data.productos; // Asigna los datos a la variable zapatos
     });
+  },
+  methods: {
+    ...mapMutations(['AGREGAR_AL_CARRITO']), // Asegúrate de que este nombre coincida con la mutación en el store
+    agregarAlCarrito(zapato) {
+      this.AGREGAR_AL_CARRITO(zapato); // Llama a la mutación para agregar el zapato al carrito
+      alert(`${zapato.nombre} ha sido agregado al carrito!`);
+    },
   },
 };
 </script>

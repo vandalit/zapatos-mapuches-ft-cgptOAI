@@ -2,13 +2,9 @@
   <div>
     <h1>Accesorios Disponibles</h1>
     <nav>
-        <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/Zapatos">Zapatos</RouterLink>
         <RouterLink to="/Promocion">Promo</RouterLink>
-        <RouterLink to="/Checkout">Checkout</RouterLink>
-        <RouterLink to="/Confirmacion">Confirmacion</RouterLink>
         <RouterLink to="/Accesorios">Accesorios</RouterLink>
-        <RouterLink to="/NotFoundView">404</RouterLink>
       </nav>
     <div class="row">
       <div class="col-md-4" v-for="accesorio in accesorios" :key="accesorio.id">

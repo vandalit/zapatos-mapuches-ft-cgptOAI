@@ -1,15 +1,6 @@
 <template>
   <div>
     <h1>Checkout</h1>
-    <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/Zapatos">Zapatos</RouterLink>
-        <RouterLink to="/Promocion">Promo</RouterLink>
-        <RouterLink to="/Checkout">Checkout</RouterLink>
-        <RouterLink to="/Confirmacion">Confirmacion</RouterLink>
-        <RouterLink to="/Accesorios">Accesorios</RouterLink>
-        <RouterLink to="/NotFoundView">404</RouterLink>
-      </nav>
     <form @submit.prevent="procesarCheckout">
       <div class="mb-3">
         <label for="nombre" class="form-label">Nombre completo</label>
@@ -24,13 +15,7 @@
         <input type="tel" v-model="telefono" id="telefono" class="form-control" required pattern="[0-9]{10}" />
       </div>
 
-      <h3>Carrito de compras</h3>
-      <ul class="list-group mb-3">
-        <li class="list-group-item" v-for="(producto, index) in carrito" :key="index">
-          {{ producto.nombre }} - ${{ producto.precio }}
-          <button @click="eliminarDelCarrito(index)" class="btn btn-danger btn-sm float-end">Eliminar</button>
-        </li>
-      </ul>
+      <Cart /> <!-- Componente del carrito -->
 
       <button type="submit" class="btn btn-primary">Confirmar Compra</button>
     </form>
@@ -38,10 +23,14 @@
 </template>
 
 <script>
-import { mapState, mapMutations } from 'vuex';
+import Cart from '../components/Cart.vue'; // Asegúrate de importar el componente Cart
+import { mapState } from 'vuex';
 
 export default {
   name: 'CheckoutView',
+  components: {
+    Cart, // Registra el componente
+  },
   data() {
     return {
       nombre: '',
@@ -50,11 +39,14 @@ export default {
     };
   },
   computed: {
-    ...mapState(['carrito']),
+    ...mapState(['carrito']), // Mapea el carrito del estado de Vuex
   },
   methods: {
-    ...mapMutations(['eliminarDelCarrito']),
     procesarCheckout() {
+      if (this.carrito.length === 0) {
+        alert('Tu carrito está vacío. Agrega productos antes de proceder.');
+        return;
+      }
       alert(`Compra confirmada para ${this.nombre}`);
       // Aquí podrías agregar lógica adicional como redirigir a la página de confirmación
     },
