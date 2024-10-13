@@ -23,13 +23,13 @@
 </template>
 
 <script>
-import Cart from '../components/Cart.vue'; // Asegúrate de importar el componente Cart
+import Cart from '../components/Cart.vue';
 import { mapState } from 'vuex';
 
 export default {
   name: 'CheckoutView',
   components: {
-    Cart, // Registra el componente
+    Cart,
   },
   data() {
     return {
@@ -39,14 +39,22 @@ export default {
     };
   },
   computed: {
-    ...mapState(['carrito']), // Mapea el carrito del estado de Vuex
+    ...mapState(['carrito']),
   },
   methods: {
     procesarCheckout() {
+      // Validaciones simples
+      if (!this.nombre || !this.email || !this.telefono) {
+        alert('Por favor completa todos los campos.');
+        return;
+      }
+
+      // Verificar que el carrito no esté vacío
       if (this.carrito.length === 0) {
         alert('Tu carrito está vacío. Agrega productos antes de proceder.');
         return;
       }
+
       alert(`Compra confirmada para ${this.nombre}`);
       // Aquí podrías agregar lógica adicional como redirigir a la página de confirmación
     },

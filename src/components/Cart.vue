@@ -8,6 +8,8 @@
       </li>
     </ul>
     <h4>Total: ${{ total }}</h4>
+    <h5 v-if="total >= 100000">¡Felicidades! Tienes un descuento del 11%.</h5>
+    <h5 v-else-if="total > 0">¡Aprovecha! Tienes un descuento del 5%.</h5>
   </div>
 </template>
 
@@ -25,7 +27,7 @@ export default {
   methods: {
     ...mapMutations(['ELIMINAR_DEL_CARRITO']),
     eliminarDelCarrito(index) {
-      this.ELIMINAR_DEL_CARRITO(index); // Llama a la mutación para eliminar del carrito
+      this.ELIMINAR_DEL_CARRITO(index);
     },
   },
 };
@@ -38,5 +40,3 @@ export default {
   align-items: center;
 }
 </style>
-
-  
